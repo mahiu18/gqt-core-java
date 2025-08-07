@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+package com.gqt.corejava.AlphabetandNumberPatterns;
+
+import java.util.Scanner;
+/*
+ * #
+ * # #
+ * # - #
+ * # - - #
+ * # # # # #
+ */
+
+/**
+ * @author mahiu
+ * @category patterns
+ * @description : This is an example for conditional pattern
+ */
+public class Patternc2 {
+
+	/**
+	 * @param args
+	 * @description : This contain source code for the pattern
+	 */
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the count : ");
+		int n=sc.nextInt();
+		//rows
+		for(int i=0;i<n;i++) {
+			//columns 
+			for(int j=0;j<=i;j++) {
+				//condition for where it need to be print # and -
+				if(i==n-1||j==0||j==n-1||i==j) {
+					System.out.print("# ");
+				}else {
+					System.out.print("- ");
+				}
+			}
+			//next line 
+			System.out.println();
+		}
+		sc.close();	
+
+	}
+
+}
