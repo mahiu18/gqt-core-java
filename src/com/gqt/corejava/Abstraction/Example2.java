@@ -1,4 +1,4 @@
-package com.gqt.Abstraction;
+package com.gqt.corejava.Abstraction;
 
 abstract class Animal12{
 	abstract void drink();

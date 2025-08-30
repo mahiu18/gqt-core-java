@@ -1,4 +1,4 @@
-package com.gqt.Collections;
+package com.gqt.corejava.Collections;
 
 import java.util.PriorityQueue;
 
