@@ -1,4 +1,4 @@
-package com.gqt.Polymorphism;
+package com.gqt.corejava.Polymorphism;
 
 class Animal12{
 	void drink() {

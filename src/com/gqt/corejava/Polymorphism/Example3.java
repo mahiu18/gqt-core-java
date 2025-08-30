@@ -1,4 +1,4 @@
-package com.gqt.Polymorphism;
+package com.gqt.corejava.Polymorphism;
 
 class Plane1{
 	void takeOff() {
